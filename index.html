@@ -21,6 +21,36 @@
   :root {
     font-size: 20px;
   }
+  .ContactLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+  }
+  .ContactLinks__Row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+  }
+  .ContactLinks__Item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+  }
+  .ContactLinks__Item:hover,
+  .ContactLinks__Item:focus {
+    text-decoration: underline;
+  }
+  .ContactLinks__Icon {
+    font-size: 1.1rem;
+  }
+  .ContactLinks__Label {
+    font-weight: 600;
+  }
 </style>
   <title>Yi Wang</title>
   <meta property="og:type" content="blog">
@@ -92,13 +122,32 @@ Google scholar
     
       <div class="Header__Desc">
         <span class="Header__DescBigQuoteMark">&ldquo;</span>
-        <span class="SemanticStringArray"><span class="SemanticString">1st year PhD student at University of Edinburgh, </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://web.inf.ed.ac.uk/ilcc">ILCC</a></span><span class="SemanticString">, working with </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a></span><span class="SemanticString">
-Email:
-s2522559 [at] ed.ac.uk
-ywang [at] </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="http://se.cuhk.edu.hk/">se.cuhk.edu.hk</a></span><span class="SemanticString"> (with previous affiliation  </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.cuhk.edu.hk">CUHK</a></span><span class="SemanticString"> </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.se.cuhk.edu.hk/laboratories/human-computer-communications-laboratory/">HCCL Lab</a></span><span class="SemanticString">)
-yiwang454 [at] </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="http://gmail.com">gmail.com</a></span><span class="SemanticString"> (Personal)
-</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://scholar.google.com/citations?user=9aXKHIYAAAAJ&amp;hl=en">Google scholar</a></span><span class="SemanticString">
-</span></span>
+        <span class="SemanticStringArray"><span class="SemanticString">PhD student at University of Edinburgh, </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://web.inf.ed.ac.uk/ilcc">ILCC</a></span><span class="SemanticString">, working with </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a></span><span class="SemanticString">.</span></span>
+        <div class="ContactLinks">
+          <div class="ContactLinks__Row">
+            <a class="ContactLinks__Item" href="mailto:s2522559@ed.ac.uk" aria-label="Email s2522559@ed.ac.uk">
+              <span class="ContactLinks__Icon" aria-hidden="true">📧</span>
+              <span>s2522559@ed.ac.uk</span>
+            </a>
+            <a class="ContactLinks__Item" href="mailto:yiwang454@gmail.com" aria-label="Email yiwang454@gmail.com">
+              <span class="ContactLinks__Icon" aria-hidden="true">📬</span>
+              <span>yiwang454@gmail.com</span>
+            </a>
+          </div>
+          <div class="ContactLinks__Row">
+            <span class="ContactLinks__Label">Previous with</span>
+            <a class="ContactLinks__Item" href="https://www.se.cuhk.edu.hk/laboratories/human-computer-communications-laboratory/" target="_blank" rel="noopener noreferrer" aria-label="Previous affiliation HCCL Lab">
+              <span class="ContactLinks__Icon" aria-hidden="true">🏛️</span>
+              <span>HCCL Lab, CUHK</span>
+            </a>
+          </div>
+          <div class="ContactLinks__Row">
+            <a class="ContactLinks__Item" href="https://scholar.google.com/citations?user=9aXKHIYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">
+              <span class="ContactLinks__Icon" aria-hidden="true">🔎</span>
+              <span>Google Scholar</span>
+            </a>
+          </div>
+        </div>
         <span class="Header__DescBigQuoteMark">&bdquo;</span>
       </div>
     
@@ -111,8 +160,8 @@ yiwang454 [at] </span><span class="SemanticString"><a class="SemanticString__Fra
     </h3>
     
       <p class="Article__Desc">
-        <span class="SemanticStringArray"><span class="SemanticString">I’m a PhD student at University of Edinburgh working on audio-visual speech representation and audio-visual video understanding, supervised by Prof. Peter Bell.
-Prior to that I had obtained an MPhil degree at the Chinese University of Hong Kong (CUHK), supervised by Prof. Xunying Liu and Prof. Helen Meng, during which I focused on Automatic Neurocognitive Disorder Detection. I gained MEng and BA degrees in Information Engineering from the University of Cambridge.</span></span>
+        <span class="SemanticStringArray"><span class="SemanticString">I’m a PhD student at University of Edinburgh working on audio-visual speech representation and audio-visual video understanding, supervised by Prof. Peter Bell, starting from September 2023.
+Prior to that I had obtained an MPhil degree at the Chinese University of Hong Kong (CUHK) (2021-2023), supervised by Prof. Xunying Liu and Prof. Helen Meng, during which I focused on Automatic Neurocognitive Disorder Detection. I gained MEng and BA degrees in Information Engineering from the University of Cambridge (2017-2021).</span></span>
       </p>
     
     <div class="DateTagBar">
