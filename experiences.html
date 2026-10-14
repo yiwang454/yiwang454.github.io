@@ -1,138 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<!-- Chrome, Firefox OS and Opera Status Bar Color -->
-<meta name="theme-color" content="#FFFFFF">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
-<link rel="stylesheet" type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
-<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
-<link rel="stylesheet" type="text/css" href="css/theme.css">
-<link rel="stylesheet" type="text/css" href="css/notablog.css">
-<!-- Favicon -->
-
-<style>
-  :root {
-    font-size: 20px;
-  }
-</style>
-  <title>Research Experience&nbsp;|&nbsp;Yi Wang</title>
-  <meta property="og:type" content="blog">
-  <meta property="og:title" content="Research Experience">
-  
-    <meta name="description" content="Neurocognitive Disorder (NCD) Detection,  2021-2023
-• Used pre-trained models as text encoders and fed text features into an ensemble of back-end classifiers to perform automatic AD detection. 
-• Used prompt-based fine-tuning paradigm to avoid pipeline system of text encoders and separated classifier, as well as make the fine-tuning objective consistent with the pre-training objective, which reduce the model performance variance
-• Now working on transferring the methods across language (applying the methods on Cantonese NCD detection data) and involving tighter integration between the ASR and AD detection components
-
-Multimodal Emotion Recognitions,  Oct 2020 - May 2021
-• Used the visual, acoustic and language (text) information to do emotion recognition for speaking videos
-
-Audio-visual Speech Recognition,  Jul - Sep 2018
-• Conducted image pre-processing for a disordered speech recognition task with audio-visual features.">
-  
-  
-  <style>
-    .DateTagBar {
-      margin-top: 1.0rem;
-    }
-    .ExperienceSection {
-      margin-bottom: 2.5rem;
-      padding: 1.25rem 1.5rem;
-      border: 1px solid #e2e2e2;
-      border-radius: 10px;
-      background-color: #fdfdfd;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-    }
-    .ExperienceSection:last-of-type {
-      margin-bottom: 0;
-    }
-    .ExperienceSection strong.SemanticString__Fragment--Bold {
-      display: inline;
-      margin-bottom: 0;
-      font-size: 1rem;
-    }
-    .ExperienceSection .SemanticStringArray > .SemanticString:first-of-type > .SemanticString__Fragment--Bold {
-      display: block;
-      font-size: 1.15rem;
-      margin-bottom: 0.8rem;
-    }
-    .ExperienceSection span.SemanticString {
-      display: block;
-      line-height: 1.6;
-      font-size: 1rem;
-    }
-    .ExperienceSection span.SemanticString br {
-      display: none;
-    }
-    .ExperienceSection span.SemanticString + span.SemanticString {
-      margin-top: 0.35rem;
-    }
-  </style>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Experience | Yi Wang</title>
+  <meta name="description" content="Research experience of Yi Wang in multimodal agents, audio-visual speech, speech generation, and neurocognitive disorder detection.">
+  <link rel="canonical" href="https://yiwang454.github.io/experiences.html">
+  <meta property="og:type" content="profile"><meta property="og:title" content="Research Experience | Yi Wang">
+  <meta property="og:description" content="Research in multimodal agents, audio-visual speech, and speech technology.">
+  <meta property="og:url" content="https://yiwang454.github.io/experiences.html"><meta property="og:image" content="https://yiwang454.github.io/profile_photo.png">
+  <link rel="stylesheet" href="css/site.css">
 </head>
-
 <body>
-  <nav class="Navbar">
-  <a href="index.html">
-    <div class="Navbar__Btn">
-      
-      <span>Home</span>
-    </div>
-  </a>
-  
-    
-  
-    
-  
-    
-      <span class="Navbar__Delim">&centerdot;</span>
-      <a href="education.html">
-        <div class="Navbar__Btn">
-          
-          <span>Education</span>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <aside class="profile" aria-label="Profile and navigation">
+      <img class="profile-photo" src="profile_photo.png" width="1472" height="1475" alt="Portrait of Yi Wang">
+      <div><h1>Yi Wang</h1><p class="profile-role">PhD Student<br>University of Edinburgh<br>Edinburgh, United Kingdom</p></div>
+      <nav class="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="experiences.html" aria-current="page">Research Experience</a><a href="education.html">Education</a></nav>
+      <div class="profile-links" aria-label="Contact and profile links">
+        <a href="mailto:Wang.Yi@ed.ac.uk">Wang.Yi@ed.ac.uk</a><a href="mailto:yiwang454@gmail.com">yiwang454@gmail.com</a>
+        <a href="https://scholar.google.com/citations?user=9aXKHIYAAAAJ&amp;hl=en" target="_blank" rel="me noopener noreferrer">Google Scholar ↗</a>
+        <a href="https://github.com/yiwang454" target="_blank" rel="me noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/yi-wang-3101bb15a" target="_blank" rel="me noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </aside>
+    <main id="main-content">
+      <header class="page-intro"><p class="eyebrow">Research Experience</p><h2>From speech representations to multimodal agents.</h2><p class="lead">My work spans audio-visual representation analysis, agentic video understanding, speech generation, and clinical speech technology.</p></header>
+      <section class="section" aria-labelledby="industry-heading">
+        <div class="section-heading"><h2 id="industry-heading">Industry</h2></div>
+        <div class="timeline"><article class="timeline-item"><p class="timeline-date">Nov 2025 – Apr 2026</p><div class="timeline-content"><h3>Tencent AI Lab / Tencent Hunyuan Multimodal Team</h3><p class="timeline-subtitle">Research Intern</p><ul class="compact-list"><li>Worked on multimodal agent systems for audio-visual video understanding, using LLM-based instruction self-improvement to improve interaction between the planner and MLLM sub-agents and shorten execution trajectories.</li><li>Contributed to post-training for code-switching speech recognition in Yuanbao ASR.</li></ul></div></article></div>
+      </section>
+      <section class="section" aria-labelledby="projects-heading">
+        <div class="section-heading"><h2 id="projects-heading">Research Projects</h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><p class="timeline-date">Nov 2025 – Apr 2026</p><div class="timeline-content"><h3>Instruction Optimization for Multimodal Agents</h3><p>Developed a compact ReAct-style multimodal agent workflow for audio-visual question answering, guiding MLLMs to extract question-relevant evidence from video before reasoning.</p><p>Investigated instruction self-improvement, toolset design, and modality consolidation for efficient agentic audio-visual reasoning.</p></div></article>
+          <article class="timeline-item"><p class="timeline-date">Aug – Nov 2025</p><div class="timeline-content"><h3>Accent-controlled Codec</h3><p>Analysed how source speech representations and codebook sizes affect the accent information encoded in discrete speech tokens, and developed accent, phone, and speaker ABX evaluations.</p></div></article>
+          <article class="timeline-item"><p class="timeline-date">Jan 2024 – Aug 2025</p><div class="timeline-content"><h3>Audio-Visual Speech Representation Learning and Analysis</h3><p>Studied how cross-modal learning affects phonetic information in speech representations, including the temporal dynamics of audio-visual phonetic encoding and visual-only self-supervised pre-training.</p></div></article>
+          <article class="timeline-item"><p class="timeline-date">Oct 2021 – Jul 2023</p><div class="timeline-content"><h3>Alzheimer’s Disease Detection</h3><p class="timeline-subtitle">MPhil thesis</p><p>Developed BERT- and RoBERTa-based systems for automatic Alzheimer’s Disease detection, investigating prompt-based fine-tuning and interpretable linguistic features.</p></div></article>
+          <article class="timeline-item"><p class="timeline-date">Oct 2020 – May 2021</p><div class="timeline-content"><h3>Multimodal Emotion Recognition</h3><p class="timeline-subtitle">Undergraduate dissertation</p><p>Combined visual, audio, and text representations for emotion recognition from speech videos using modality-specific encoders and decision-level fusion.</p></div></article>
         </div>
-      </a>
-    
-  
-    
-      <span class="Navbar__Delim">&centerdot;</span>
-      <a href="experiences.html">
-        <div class="Navbar__Btn">
-          
-          <span>Research Experience</span>
-        </div>
-      </a>
-    
-  
-    
-  
-</nav>
-  <header class="Header">
-    
-    <div class="Header__Spacer Header__Spacer--NoCover">
-    </div>
-    
-    <h1 class="Header__Title">Research Experience</h1>
-    
-  </header>
-  <article id="https://www.notion.so/69ba16dff95246e5bbe825c4f47b8b7c" class="PageRoot"><section class="ExperienceSection"><div id="custom-audio-visual-experience" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Audio-visual Speech Representations Learning and Analysis,  Jan 2024 - Now
-</strong></span><span class="SemanticString"><br><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Impact of cross-modal learning on audio-visual representations</strong></span><span class="SemanticString"><br>- Comparing visual speech representations learned with or without cross-modal learning by probing.</span><span class="SemanticString"><br><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Audio-visual asynchronicity in speech representations</strong></span><span class="SemanticString"><br>- Compared the temporal dynamics of phonetic information encoding in the audio-visual and audio-only SSL representations by probing.</span><span class="SemanticString"><br>- Revealed that audio-visual SSL models failed to capture the natural asynchrony between audio and visual modalities.</span><span class="SemanticString"><br><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Visual-only self-supervised learning (SSL) speech model</strong></span><span class="SemanticString"><br>- Attempted to pre-train a visual-only SSL speech model on visual-only training objectives, i.e. pseudo labels generated by K-means clustering from visual features.</span></span></p></div></section><section class="ExperienceSection"><div id="https://www.notion.so/27b40c7f01fe4ba082fa7d64a7fbd806" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Neurocognitive Disorder (NCD) Detection,  2021-Now
-</strong></span><span class="SemanticString"><br>- Built a system obtaining SOTA AD detection accuracies at 93.75% on the ADReSS English dataset using an ensemble of BERT/RoBERTa models, and transferred the methods to Cantonese data</span><span class="SemanticString"><br>- Adopted prompt-based fine-tuning on the AD classifiers based on transformers, incorporating interpretable features (e.g. disfluency features) to the transformer models.</span><span class="SemanticString"><br>- Working on transferring the methods accross language (applying the methods on Cantonese NCD detection data) and involving data augmentation.</span></span></p></div></section><section class="ExperienceSection"><div id="custom-ad-detection-details" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Alzheimer's Disease (AD) Detection (MPhil thesis),  Oct 2021 - Jul 2023
-</strong></span><span class="SemanticString"><br>- Built a system obtaining SOTA AD detection accuracies at 93.75% on the ADReSS English dataset using an ensemble of BERT/RoBERTa models, and transferred the methods to Cantonese data.</span><span class="SemanticString"><br>- Adopted prompt-based fine-tuning on the AD classifiers based on transformers, incorporating interpretable features (e.g. disfluency features) to the transformer models.</span></span></p></div></section><section class="ExperienceSection"><div id="custom-multimodal-details" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Multimodal Emotion Recognitions (Undergrad degree dissertation),  Oct 2020 - May 2021
-</strong></span><span class="SemanticString"><br>- Used the visual, audio and text information to recognize emotion from speech videos, with Res-TDNN as single modality feature encoders and decision level fusion.</span></span></p></div></section><section class="ExperienceSection"><div id="https://www.notion.so/9e62572e087e45029a92ee38a616149e" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Audio-visual Speech Recognition,  Jul - Sep 2018</strong></span><span class="SemanticString"><br>- Conducted image pre-processing for a disordered speech recognition task with audio-visual features.</span></span></p></div><div id="https://www.notion.so/82a8616bb2404205ad0d717a0d90bb7c" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">- Recognized and extracted mouth region images from videos by OpenCV and dlib</span></span></p></div><div id="https://www.notion.so/83542cce13f64b4399c9d4a40bcb37e5" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">- Built an autoencoder to compress visual data</span></span></p></div></section></article>
-  <footer class="Footer">
-  <div>&copy; Yi Wang 2022</div>
-  <div>&centerdot;</div>
-  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
-      rel="noopener noreferrer">Notablog</a>.
+      </section>
+      <section class="section" aria-labelledby="teaching-heading">
+        <div class="section-heading"><h2 id="teaching-heading">Teaching</h2></div>
+        <div class="timeline"><article class="timeline-item"><p class="timeline-date">2024–2025</p><div class="timeline-content"><h3>University of Edinburgh</h3><ul class="compact-list"><li>Teaching Assistant, Automatic Speech Recognition</li><li>Assignment Marker, Machine Learning</li></ul></div></article></div>
+      </section>
+      <footer class="site-footer">© 2026 Yi Wang · Last updated October 2026</footer>
+    </main>
   </div>
-</footer>
 </body>
-
 </html>

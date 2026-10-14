@@ -1,274 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<!-- Chrome, Firefox OS and Opera Status Bar Color -->
-<meta name="theme-color" content="#FFFFFF">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
-<link rel="stylesheet" type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
-<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
-<link rel="stylesheet" type="text/css" href="css/theme.css">
-<link rel="stylesheet" type="text/css" href="css/notablog.css">
-<!-- Favicon -->
-
-<style>
-  :root {
-    font-size: 20px;
-  }
-  .ContactLinks {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    margin-top: 0.6rem;
-  }
-  .ContactLinks__Row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    align-items: center;
-  }
-  .ContactLinks__Item {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    text-decoration: none;
-    color: inherit;
-    font-weight: 600;
-  }
-  .ContactLinks__Item:hover,
-  .ContactLinks__Item:focus {
-    text-decoration: underline;
-  }
-  .ContactLinks__Icon {
-    font-size: 1.1rem;
-  }
-  .ContactLinks__Label {
-    font-weight: 600;
-  }
-</style>
-  <title>Yi Wang</title>
-  <meta property="og:type" content="blog">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yi Wang | Multimodal Speech and Audio-Visual AI</title>
+  <meta name="description" content="Yi Wang is a PhD student at the University of Edinburgh researching multimodal speech representations, instruction optimization, and audio-visual agents.">
+  <link rel="canonical" href="https://yiwang454.github.io/">
+  <meta property="og:type" content="profile">
   <meta property="og:title" content="Yi Wang">
-  
-    <meta name="description" content="PhD student at University of Edinburgh, ILCC, working with Prof. Peter Bell
-Email:
-Wang.Yi [at] ed.ac.uk
-yiwang454 [at] gmail.com (Personal)
-Google scholar
-">
-    <meta property="og:description" content="PhD student at University of Edinburgh, ILCC, working with Prof. Peter Bell
-Email:
-s2522559 [at] ed.ac.uk
-ywang [at] se.cuhk.edu.hk (with previous affiliation  CUHK HCCL Lab)
-yiwang454 [at] gmail.com (Personal)
-Google scholar
-">
-  
-  
+  <meta property="og:description" content="PhD student at the University of Edinburgh working on multimodal speech and audio-visual AI.">
+  <meta property="og:url" content="https://yiwang454.github.io/">
+  <meta property="og:image" content="https://yiwang454.github.io/profile_photo.png">
+  <link rel="stylesheet" href="css/site.css">
 </head>
-
 <body>
-  <nav class="Navbar">
-  <a href="index.html">
-    <div class="Navbar__Btn">
-      
-      <span>Home</span>
-    </div>
-  </a>
-  
-    
-  
-    
-  
-    
-      <span class="Navbar__Delim">&centerdot;</span>
-      <a href="education.html">
-        <div class="Navbar__Btn">
-          
-          <span>Education</span>
-        </div>
-      </a>
-    
-  
-    
-      <span class="Navbar__Delim">&centerdot;</span>
-      <a href="experiences.html">
-        <div class="Navbar__Btn">
-          
-          <span>Research Experience</span>
-        </div>
-      </a>
-    
-  
-    
-  
-</nav>
-  <header class="Header">
-    
-      <div class="Header__Cover">
-        <img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb21a146d-10bd-4145-b4d6-998d08d2c4af%2FWechatIMG394.jpeg?table=collection&amp;id=65e19179-ff31-4901-84cc-04a26a745a3d">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <aside class="profile" aria-label="Profile and navigation">
+      <img class="profile-photo" src="profile_photo.png" width="1472" height="1475" alt="Portrait of Yi Wang">
+      <div>
+        <h1>Yi Wang</h1>
+        <p class="profile-role">PhD Student<br>University of Edinburgh<br>Edinburgh, United Kingdom</p>
       </div>
-    
-    <div class="Header__Spacer ">
-    </div>
-    
-    <h1 class="Header__Title">Yi Wang</h1>
-    
-      <div class="Header__Desc">
-        <span class="Header__DescBigQuoteMark">&ldquo;</span>
-        <span class="SemanticStringArray"><span class="SemanticString">PhD student at University of Edinburgh, </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://web.inf.ed.ac.uk/ilcc">ILCC</a></span><span class="SemanticString">, working with </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a></span><span class="SemanticString">.</span></span>
-        <div class="ContactLinks">
-          <div class="ContactLinks__Row">
-            <a class="ContactLinks__Item" href="mailto:s2522559@ed.ac.uk" aria-label="Email s2522559@ed.ac.uk">
-              <span class="ContactLinks__Icon" aria-hidden="true">📧</span>
-              <span>s2522559@ed.ac.uk</span>
-            </a>
-            <a class="ContactLinks__Item" href="mailto:yiwang454@gmail.com" aria-label="Email yiwang454@gmail.com">
-              <span class="ContactLinks__Icon" aria-hidden="true">📬</span>
-              <span>yiwang454@gmail.com</span>
-            </a>
-          </div>
-          <div class="ContactLinks__Row">
-            <span class="ContactLinks__Label">Previous with</span>
-            <a class="ContactLinks__Item" href="https://www.se.cuhk.edu.hk/laboratories/human-computer-communications-laboratory/" target="_blank" rel="noopener noreferrer" aria-label="Previous affiliation HCCL Lab">
-              <span class="ContactLinks__Icon" aria-hidden="true">🏛️</span>
-              <span>HCCL Lab, CUHK</span>
-            </a>
-          </div>
-          <div class="ContactLinks__Row">
-            <a class="ContactLinks__Item" href="https://scholar.google.com/citations?user=9aXKHIYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">
-              <span class="ContactLinks__Icon" aria-hidden="true">🔎</span>
-              <span>Google Scholar</span>
-            </a>
-          </div>
-        </div>
-        <span class="Header__DescBigQuoteMark">&bdquo;</span>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="experiences.html">Research Experience</a>
+        <a href="education.html">Education</a>
+      </nav>
+      <div class="profile-links" aria-label="Contact and profile links">
+        <a href="mailto:Wang.Yi@ed.ac.uk">Wang.Yi@ed.ac.uk</a>
+        <a href="mailto:yiwang454@gmail.com">yiwang454@gmail.com</a>
+        <a href="https://scholar.google.com/citations?user=9aXKHIYAAAAJ&amp;hl=en" target="_blank" rel="me noopener noreferrer">Google Scholar ↗</a>
+        <a href="https://github.com/yiwang454" target="_blank" rel="me noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/yi-wang-3101bb15a" target="_blank" rel="me noopener noreferrer">LinkedIn ↗</a>
       </div>
-    
-  </header>
-  <article class="ArticleList">
-
-  <article class="Article">
-    <h3 class="Article__Title">
-      About me
-    </h3>
-    
-      <p class="Article__Desc">
-        <span class="SemanticStringArray"><span class="SemanticString">I’m a PhD student at University of Edinburgh working on audio-visual speech representation and audio-visual video understanding, supervised by Prof. Peter Bell, starting from September 2023.
-Prior to that I had obtained an MPhil degree at the Chinese University of Hong Kong (CUHK) (2021-2023), supervised by Prof. Xunying Liu and Prof. Helen Meng, during which I focused on Automatic Neurocognitive Disorder Detection. I gained MEng and BA degrees in Information Engineering from the University of Cambridge (2017-2021).</span></span>
-      </p>
-    
-    <div class="DateTagBar">
-      
-      
-    </div>
-  </article>
-
-  <article class="Article">
-    <h3 class="Article__Title">
-      Publications
-    </h3>
-    
-      <p class="Article__Desc">
-        <span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">The role of audio-visual integration in the time course of phonetic encoding in self-supervised speech models. | [</strong></span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://arxiv.org/pdf/2506.20361"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Paper</strong></a></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">]
-</strong></span><span class="SemanticString">Wang Y., Liu O. D., Bell P., Accepted by Interspeech 2025
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Exploiting prompt learning with pre-trained language models for Alzheimer&#x27;s Disease detection. | [</strong></span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://arxiv.org/abs/2210.16539"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Paper</strong></a></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">]
-</strong></span><span class="SemanticString">Wang Y., Deng J., Wang T., Zheng B., Hu S., Liu X., Meng H., Accepted by ICASSP 2023
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Exploring linguistic feature and model combination for speech recognition based automatic AD detection | [</strong></span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://arxiv.org/abs/2206.13758"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Paper</strong></a></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">]</strong></span><span class="SemanticString">
-Wang Y., Wang T., Ye Z., Meng L., Hu S., Wu X., Liu X., Meng H., Proc. Interspeech 2022
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Conformer Based Elderly Speech Recognition System for Alzheimer&#x27;s Disease Detection | [</strong></span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://arxiv.org/abs/2206.13232"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Paper</strong></a></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">]
-</strong></span><span class="SemanticString">Wang T., Deng J., Geng M., Ye Z., Hu S., Wang Y., Cui M., Jin Z., Liu X., Meng H., Proc. Interspeech 2022
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Exploiting Visual Features Using Bayesian Gated Neural Networks for Disordered Speech Recognition. | [</strong></span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.isca-speech.org/archive/interspeech_2019/liu19j_interspeech.html"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Paper</strong></a></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">]</strong></span><span class="SemanticString">
-Liu S., Hu S., Wang Y., Yu J., Su R., Liu X., Meng H. </span><span class="SemanticString"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorBlue"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">ISCA Student Paper Award Nomination. </strong></mark></span><span class="SemanticString">Proc. Interspeech 2019
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Exploring Self-Supervised Pre-Trained ASR Models For Dysarthric and Elderly Speech Recognition. | [Paper to be updated]
-</strong></span><span class="SemanticString">Hu S., Xie X., Jin Z., Geng M., Wang Y., Cui M., Deng J., Liu X., Meng H., Accepted by ICASSP 2023</span></span>
-      </p>
-    
-    <div class="DateTagBar">
-      
-      
-    </div>
-  </article>
-
-  <article class="Article">
-    <h3 class="Article__Title">
-      
-      <a href="education.html">
-        Education
-      </a>
-    </h3>
-    
-      <p class="Article__Desc">
-        <span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">University of Edinburgh, 2023 - ?</strong></span><span class="SemanticString">
-Working for PhD degree at the Institute for Language, Cognition and Computation
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Chinese University of Hong Kong (CUHK),  2021 - 2023
-</strong></span><span class="SemanticString">MPhil degree at the SEEM Department
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">University of Cambridge, Christ’s College,  2017 - 2021
-</strong></span><span class="SemanticString">BA and MEng Hons in Information and Computer Engineering</span></span>
-      </p>
-    
-    <div class="DateTagBar">
-      
-      
-    </div>
-  </article>
-
-  <article class="Article">
-    <h3 class="Article__Title">
-      
-      <a href="experiences.html">
-        Research Experience
-      </a>
-    </h3>
-    
-      <p class="Article__Desc">
-        <span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Neurocognitive Disorder (NCD) Detection,  2021-2023
-</strong></span><span class="SemanticString">• Used pre-trained models as text encoders and fed text features into an ensemble of back-end classifiers to perform automatic AD detection. 
-• Used prompt-based fine-tuning paradigm to avoid pipeline system of text encoders and separated classifier, as well as make the fine-tuning objective consistent with the pre-training objective, which reduce the model performance variance
-• Now working on transferring the methods across language (applying the methods on Cantonese NCD detection data) and involving tighter integration between the ASR and AD detection components
-
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Multimodal Emotion Recognitions,  Oct 2020 - May 2021
-</strong></span><span class="SemanticString">• Used the visual, acoustic and language (text) information to do emotion recognition for speaking videos
-
-</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Audio-visual Speech Recognition,  Jul - Sep 2018</strong></span><span class="SemanticString">
-• Conducted image pre-processing for a disordered speech recognition task with audio-visual features.</span></span>
-      </p>
-    
-    <div class="DateTagBar">
-      
-      
-    </div>
-  </article>
-
-  <article class="Article">
-    <h3 class="Article__Title">
-      Extra-curricular Activity
-    </h3>
-    
-      <p class="Article__Desc">
-        <span class="SemanticStringArray"><span class="SemanticString">Cambridge University Women’s Basketball Club, second team Player,  2017 - 2020</span></span>
-      </p>
-    
-    <div class="DateTagBar">
-      
-      
-    </div>
-  </article>
-
-</article>
-  <footer class="Footer">
-  <div>&copy; Yi Wang 2022</div>
-  <div>&centerdot;</div>
-  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
-      rel="noopener noreferrer">Notablog</a>.
+    </aside>
+    <main id="main-content">
+      <header class="page-intro">
+        <p class="eyebrow">Speech · Language · Vision</p>
+        <h2>Multimodal intelligence for understanding speech and video.</h2>
+        <p class="lead">I study how multimodal models represent, retrieve, and reason over information from speech, audio, and vision.</p>
+      </header>
+      <section class="section bio" id="about">
+        <div class="section-heading"><h2>Short Bio</h2></div>
+        <p>I am a PhD student at the University of Edinburgh, supervised by <a href="https://homepages.inf.ed.ac.uk/pbell1/" target="_blank" rel="noopener noreferrer">Prof. Peter Bell</a> and Dr. Hao Tang. Recently, I have also worked closely with <a href="https://scholar.google.com/citations?user=tDVY69wAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Dr. Tianzi Wang</a>. My current research focuses on multimodal speech representation analysis, instruction optimization, and multimodal agents for video understanding.</p>
+        <p>Prior to that, I obtained an MPhil degree at The Chinese University of Hong Kong, supervised by <a href="https://www1.se.cuhk.edu.hk/~xyliu/" target="_blank" rel="noopener noreferrer">Prof. Xunying Liu</a> and Prof. Helen Meng, during which I focused on Automatic Neurocognitive Disorder Detection. I received my BA and MEng degrees in Information Engineering from the University of Cambridge.</p>
+        <ul class="interest-list" aria-label="Research interests">
+          <li>Multimodal agents and audio-visual reasoning</li>
+          <li>Audio-visual speech representation learning</li>
+          <li>Speech and multimodal foundation models</li>
+          <li>Neurocognitive disorder detection</li>
+        </ul>
+      </section>
+      <section class="section" id="publications">
+        <div class="section-heading"><h2>Selected Publications</h2></div>
+        <ol class="publication-list">
+          <li class="publication">
+            <h3 class="publication-title">Designing Textual Interfaces to Enhance LLM Reasoning on Audio-Visual Question Answering</h3>
+            <p class="publication-authors"><strong>Yi Wang</strong>, Tianzi Wang, Tong Lei, Dahan Wang, Peter Bell</p>
+            <p class="publication-venue">Under review at ICASSP 2027</p>
+            <div class="publication-links"><a class="paper-link" href="AUTHOR_GUIDELINES_FOR_ICASSP_2027_PROCEEDINGS_MANUSCRIPTS-2.pdf">PDF</a><span class="status-label">arXiv forthcoming</span></div>
+          </li>
+          <li class="publication">
+            <h3 class="publication-title">Efficient Agentic Audio-Visual Question Answering through Toolset Pruning and Modality Consolidation</h3>
+            <p class="publication-authors"><strong>Yi Wang</strong>, Tianzi Wang, Peter Bell</p>
+            <p class="publication-venue">Preprint, 2026</p>
+            <div class="publication-links"><span class="status-label">arXiv forthcoming</span></div>
+          </li>
+          <li class="publication">
+            <h3 class="publication-title">Rethinking Discrete Speech Representation Tokens for Accent Generation</h3>
+            <p class="publication-authors"><strong><a href="https://jzmzhong.github.io" target="_blank" rel="noopener noreferrer">Jinzuomu Zhong</a>*</strong>, <strong>Yi Wang*</strong>, Korin Richmond, Peter Bell</p>
+            <p class="publication-venue">arXiv preprint, 2026</p>
+            <div class="publication-links"><a class="paper-link" href="https://arxiv.org/abs/2601.19786" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+          </li>
+          <li class="publication">
+            <h3 class="publication-title">The Role of Audio-Visual Integration in the Time Course of Phonetic Encoding in Self-Supervised Speech Models</h3>
+            <p class="publication-authors"><strong>Yi Wang</strong>, Oli Danyi Liu, Peter Bell</p>
+            <p class="publication-venue">Interspeech 2025</p>
+            <div class="publication-links"><a class="paper-link" href="https://www.isca-archive.org/interspeech_2025/wang25w_interspeech.pdf" target="_blank" rel="noopener noreferrer">PDF</a></div>
+          </li>
+          <li class="publication">
+            <h3 class="publication-title">Exploiting Prompt Learning with Pre-trained Language Models for Alzheimer’s Disease Detection</h3>
+            <p class="publication-authors"><strong>Yi Wang</strong>, Jiajun Deng, Tianzi Wang, Bo Zheng, Shoukang Hu, Xunying Liu, Helen Meng</p>
+            <p class="publication-venue">ICASSP 2023</p>
+            <div class="publication-links"><a class="paper-link" href="https://arxiv.org/abs/2210.16539" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+          </li>
+          <li class="publication">
+            <h3 class="publication-title">Exploring Linguistic Feature and Model Combination for Speech Recognition Based Automatic AD Detection</h3>
+            <p class="publication-authors"><strong>Yi Wang</strong>, Tianzi Wang, Zi Ye, Lingwei Meng, Shoukang Hu, Xixin Wu, Xunying Liu, Helen Meng</p>
+            <p class="publication-venue">Interspeech 2022</p>
+            <div class="publication-links"><a class="paper-link" href="https://arxiv.org/abs/2206.13758" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+          </li>
+        </ol>
+        <p class="equal-note">* Equal contribution.</p>
+      </section>
+      <footer class="site-footer">© 2026 Yi Wang · Last updated October 2026</footer>
+    </main>
   </div>
-</footer>
 </body>
-
 </html>
